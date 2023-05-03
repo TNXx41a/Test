@@ -44,3 +44,7 @@ Section:NewButton("warp", "ButtonInfo", function()
     print("Clicked")
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2306.02759, 273.683319, -1567.28333, -0.0599091984, 0.0617828406, -0.996290028, 0.0267807283, 0.99782294, 0.0602675155, 0.997844517, -0.0230707936, -0.0614333637)
 end)
+Section:NewButton("Reset", "ButtonInfo", function()
+    print("Clicked")
+    game.Players.LocalPlayer.Character.Humanoid.Health = 0
+end)
